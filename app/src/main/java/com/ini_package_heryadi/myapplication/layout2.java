@@ -21,7 +21,7 @@ public class layout2 extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(layout2.this);
                 builder.setTitle("Keluar");
-                builder.setMessage("Anda mau tutup aplikasinya?");
+                builder.setMessage("Anda mau tutup aplikasinya ya?");
                 builder.setPositiveButton("Yoi", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
